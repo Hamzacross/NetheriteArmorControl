@@ -1,0 +1,15 @@
+name: NetheriteArmorControl
+main: me.netheritearmorcontrol.Main
+version: 1.0
+api-version: 1.16
+author: Hamzacross100
+description: Disable or allow Netherite armor upgrades individually via config and log crafting attempts.
+commands:
+  nrw:
+    description: Main command for NetheriteArmorControl
+    usage: /<command> reload
+    permission: nar.reload
+permissions:
+  nar.reload:
+    description: Allows reloading of the plugin config
+    default: op

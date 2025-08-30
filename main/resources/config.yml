@@ -1,0 +1,10 @@
+# Netherite Armor Upgrade Settings
+armor-upgrades:
+  NETHERITE_HELMET: false
+  NETHERITE_CHESTPLATE: false
+  NETHERITE_LEGGINGS: true
+  NETHERITE_BOOTS: false
+
+# Messages
+equip-message: "&cYou cannot wear this Netherite armor piece!"
+reload-message: "&a✔ The Config was reloaded successfully!"
